@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+
 from app.dtos.create_meeting_response import CreateMeetingResponse
 
 edgedb_router = APIRouter(
